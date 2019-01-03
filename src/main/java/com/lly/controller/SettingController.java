@@ -12,6 +12,6 @@ public class SettingController {
     @RequestMapping("/setting")
     @ResponseBody
     public String setting() {
-        return "Setting:OK";
+        return "Setting:OK！";
     }
 }
